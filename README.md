@@ -3,7 +3,7 @@
 
 
 For Demo <br />
-[Nextjs Personal Blog Website Demo](https://create-blog-with-nextjs.vercel.app/) <br />
+[Nextjs Personal Blog Website Demo](https://nextjs-contentlayer-blog-ivory.vercel.app/) <br />
 
 
 
