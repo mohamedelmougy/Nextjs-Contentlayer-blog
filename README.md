@@ -22,7 +22,7 @@ For Demo <br />
 #### Contact
 ![Next.js Personal Blog Website Contact Page](public/project-images/Cotnact-Big.png)
 
-For more Images please check the [project images](https://github.com/codebucks27/Nextjs-contentlayer-blog/tree/main/project%20images) folder from this repo or check the demo link. 
+For more Images please check the [project images](https://github.com/mohamedelmougy/Nextjs-Contentlayer-blog/tree/main/public/project-images) folder from this repo or check the demo link. 
 
 
 ### Resources Used in This Project
