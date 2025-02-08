@@ -22,6 +22,8 @@ For Demo <br />
 #### Contact
 ![Next.js Personal Blog Website Contact Page](public/project-images/Cotnact-Big.png)
 
+![lighthouse](public/project-images/lighthouse.png)
+
 For more Images please check the [project images](https://github.com/mohamedelmougy/Nextjs-Contentlayer-blog/tree/main/public/project-images) folder from this repo or check the demo link. 
 
 
