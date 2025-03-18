@@ -14,11 +14,11 @@ const Footer = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark text-center">
-      <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
+    <footer className="flex flex-col items-center m-2 mt-16 text-center rounded-2xl bg-dark dark:bg-accentDark/90 sm:m-10 text-light dark:text-dark">
+      <h3 className="px-4 mt-16 text-2xl font-medium text-center capitalize dark:font-bold sm:text-3xl lg:text-4xl">
         Interesting Stories | Updates | Guides
       </h3>
-      <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
+      <p className="w-full px-4 mt-5 text-sm font-light text-center sm:w-3/5 dark:font-medium sm:text-base">
         Subscribe to learn about new technology and updates. Join over 5000+
         members community to stay up to date with latest news.
       </p>
@@ -30,44 +30,44 @@ const Footer = () => {
           type="email"
           placeholder="Enter your email"
           {...register("Email", { required: true })}
-          className="w-full bg-transparent text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pl-2 sm:pl-0 pb-1"
+          className="w-full pb-1 pl-2 mr-2 bg-transparent border-0 border-b text-dark focus:border-dark focus:ring-0 sm:pl-0"
         />
 
         <input
         value="submit"
           type="submit"
-          className="bg-dark text-light dark:text-dark dark:bg-light cursor-pointer font-medium rounded px-3 sm:px-5 py-1"
+          className="px-3 py-1 font-medium rounded cursor-pointer bg-dark text-light dark:text-dark dark:bg-light sm:px-5"
         />
       </form>
       <div className="flex items-center mt-8">
         <a href={siteMetadata.linkedin} className="inline-block w-6 h-6 mr-4">
-          <LinkedinIcon className="hover:scale-125 transition-all ease-out duration-200" />
+          <LinkedinIcon className="transition-all duration-200 ease-out hover:scale-125" />
         </a>
         <a href={siteMetadata.twitter} className="inline-block w-6 h-6 mr-4">
-          <TwitterIcon className="hover:scale-125 transition-all ease-out duration-200" />
+          <TwitterIcon className="transition-all duration-200 ease-out hover:scale-125" />
         </a>
         <a
           href={siteMetadata.github}
           className="inline-block w-6 h-6 mr-4 fill-light"
         >
-          <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease-out duration-200" />
+          <GithubIcon className="transition-all duration-200 ease-out fill-light dark:fill-dark hover:scale-125" />
         </a>
         <a href={siteMetadata.dribbble} className="inline-block w-6 h-6 mr-4">
-          <DribbbleIcon className="hover:scale-125 transition-all ease-out duration-200" />
+          <DribbbleIcon className="transition-all duration-200 ease-out hover:scale-125" />
         </a>
       </div>
 
-      <div className="w-full mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex flex-col md:flex-row items-center justify-between">
+      <div className="relative flex flex-col items-center justify-between w-full px-8 py-6 mt-16 font-medium border-t border-solid md:mt-24 border-light md:flex-row">
         <span className="text-center">
           &copy; 2023 CodeBucks. All rights reserved.
         </span>
-        <Link href="/sitemap.xml" className="text-center underline my-4 md:my-0">
+        <Link href="/sitemap.xml" className="my-4 text-center underline md:my-0">
           sitemap.xml
         </Link>
         <div className="text-center">
           Made with &hearts; by{" "}
           <a  className="underline">
-            CodeBucks
+            Mohamed Elmougy
           </a>
         </div>
       </div>
